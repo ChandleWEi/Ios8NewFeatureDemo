@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CC22B444A374B27B7BD1140 /* libPods-PINGtouchIdDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B2CC6ABA534105B4EAAAB1 /* libPods-PINGtouchIdDemo.a */; };
+		43A373E4194AF42F0064ECD6 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A373E3194AF42F0064ECD6 /* DismissingAnimator.m */; };
+		43A373E7194AF4400064ECD6 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A373E6194AF4400064ECD6 /* PresentingAnimator.m */; };
+		43A373EA194AF46A0064ECD6 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A373E9194AF46A0064ECD6 /* UIColor+CustomColors.m */; };
+		43A373ED194AF4AB0064ECD6 /* MyHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A373EC194AF4AB0064ECD6 /* MyHomeViewController.m */; };
+		43A373F0194AF4BB0064ECD6 /* payMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A373EF194AF4BB0064ECD6 /* payMoneyViewController.m */; };
+		43A373F2194EDAED0064ECD6 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A373F1194EDAED0064ECD6 /* LocalAuthentication.framework */; };
+		43A373F4194EF0270064ECD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A373F3194EF0270064ECD6 /* QuartzCore.framework */; };
+		43A373F7194FD90B0064ECD6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43A373F9194FD90B0064ECD6 /* Localizable.strings */; };
+		43A37400194FE4270064ECD6 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A373FF194FE4270064ECD6 /* UIDevice-Hardware.m */; };
+		43A39E74194A927D0066DB43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A39E73194A927D0066DB43 /* main.m */; };
+		43A39E77194A927D0066DB43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A39E76194A927D0066DB43 /* AppDelegate.m */; };
+		43A39E7D194A927D0066DB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A39E7B194A927D0066DB43 /* Main.storyboard */; };
+		43A39E7F194A927D0066DB43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A39E7E194A927D0066DB43 /* Images.xcassets */; };
+		43A39E8B194A927D0066DB43 /* PINGtouchIdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A39E8A194A927D0066DB43 /* PINGtouchIdDemoTests.m */; };
+		43A39E96194A93C70066DB43 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A39E95194A93C70066DB43 /* LoginViewController.m */; };
+		43A39E9A194A96A80066DB43 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A39E99194A96A80066DB43 /* MBProgressHUD.m */; };
+		43A39E9C194A9C8B0066DB43 /* yqb.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A39E9B194A9C8B0066DB43 /* yqb.png */; };
+		43A39E9F194A9F510066DB43 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A39E9D194A9F510066DB43 /* set.png */; };
+		43A39EA0194A9F510066DB43 /* pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A39E9E194A9F510066DB43 /* pay.png */; };
+		43A39EA3194ACCC20066DB43 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A39EA2194ACCC20066DB43 /* SettingTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43A39E85194A927D0066DB43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43A39E66194A927D0066DB43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43A39E6D194A927D0066DB43;
+			remoteInfo = PINGtouchIdDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FB669E273C54F0DADAC6D1A /* Pods-PINGtouchIdDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINGtouchIdDemo.xcconfig"; path = "Pods/Pods-PINGtouchIdDemo.xcconfig"; sourceTree = "<group>"; };
+		43A373E2194AF42F0064ECD6 /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		43A373E3194AF42F0064ECD6 /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		43A373E5194AF4400064ECD6 /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		43A373E6194AF4400064ECD6 /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
+		43A373E8194AF46A0064ECD6 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		43A373E9194AF46A0064ECD6 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		43A373EB194AF4AB0064ECD6 /* MyHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHomeViewController.h; sourceTree = "<group>"; };
+		43A373EC194AF4AB0064ECD6 /* MyHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHomeViewController.m; sourceTree = "<group>"; };
+		43A373EE194AF4BB0064ECD6 /* payMoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payMoneyViewController.h; sourceTree = "<group>"; };
+		43A373EF194AF4BB0064ECD6 /* payMoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payMoneyViewController.m; sourceTree = "<group>"; };
+		43A373F1194EDAED0064ECD6 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		43A373F3194EF0270064ECD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		43A373FB194FD92E0064ECD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		43A373FC194FDA0B0064ECD6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		43A373FD194FDA0B0064ECD6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		43A373FE194FE4270064ECD6 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		43A373FF194FE4270064ECD6 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		43A39E6E194A927D0066DB43 /* PINGtouchIdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PINGtouchIdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A39E72194A927D0066DB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A39E73194A927D0066DB43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43A39E75194A927D0066DB43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43A39E76194A927D0066DB43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43A39E7C194A927D0066DB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43A39E7E194A927D0066DB43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43A39E84194A927D0066DB43 /* PINGtouchIdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINGtouchIdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A39E89194A927D0066DB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A39E8A194A927D0066DB43 /* PINGtouchIdDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINGtouchIdDemoTests.m; sourceTree = "<group>"; };
+		43A39E94194A93C70066DB43 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		43A39E95194A93C70066DB43 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		43A39E97194A95930066DB43 /* GloableImageKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloableImageKeys.h; sourceTree = "<group>"; };
+		43A39E98194A96A80066DB43 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		43A39E99194A96A80066DB43 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		43A39E9B194A9C8B0066DB43 /* yqb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yqb.png; sourceTree = "<group>"; };
+		43A39E9D194A9F510066DB43 /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		43A39E9E194A9F510066DB43 /* pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay.png; sourceTree = "<group>"; };
+		43A39EA1194ACCC20066DB43 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		43A39EA2194ACCC20066DB43 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		C1B2CC6ABA534105B4EAAAB1 /* libPods-PINGtouchIdDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PINGtouchIdDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A39E6B194A927D0066DB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A373F4194EF0270064ECD6 /* QuartzCore.framework in Frameworks */,
+				43A373F2194EDAED0064ECD6 /* LocalAuthentication.framework in Frameworks */,
+				2CC22B444A374B27B7BD1140 /* libPods-PINGtouchIdDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A39E81194A927D0066DB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A39E65194A927D0066DB43 = {
+			isa = PBXGroup;
+			children = (
+				43A39E70194A927D0066DB43 /* PINGtouchIdDemo */,
+				43A39E87194A927D0066DB43 /* PINGtouchIdDemoTests */,
+				43A39E6F194A927D0066DB43 /* Products */,
+				0FB669E273C54F0DADAC6D1A /* Pods-PINGtouchIdDemo.xcconfig */,
+				967ABD47F4004A62904BBD03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43A39E6F194A927D0066DB43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A39E6E194A927D0066DB43 /* PINGtouchIdDemo.app */,
+				43A39E84194A927D0066DB43 /* PINGtouchIdDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43A39E70194A927D0066DB43 /* PINGtouchIdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				43A373F9194FD90B0064ECD6 /* Localizable.strings */,
+				43A39EA4194AEBBB0066DB43 /* pop */,
+				43A39E75194A927D0066DB43 /* AppDelegate.h */,
+				43A39E76194A927D0066DB43 /* AppDelegate.m */,
+				43A39E94194A93C70066DB43 /* LoginViewController.h */,
+				43A39E95194A93C70066DB43 /* LoginViewController.m */,
+				43A373EB194AF4AB0064ECD6 /* MyHomeViewController.h */,
+				43A373EC194AF4AB0064ECD6 /* MyHomeViewController.m */,
+				43A39EA1194ACCC20066DB43 /* SettingTableViewController.h */,
+				43A39EA2194ACCC20066DB43 /* SettingTableViewController.m */,
+				43A39E97194A95930066DB43 /* GloableImageKeys.h */,
+				43A39E7B194A927D0066DB43 /* Main.storyboard */,
+				43AC80CF1950162B00F8BC4E /* Helps */,
+				43A39E7E194A927D0066DB43 /* Images.xcassets */,
+				43A373EE194AF4BB0064ECD6 /* payMoneyViewController.h */,
+				43A373EF194AF4BB0064ECD6 /* payMoneyViewController.m */,
+				43A373E2194AF42F0064ECD6 /* DismissingAnimator.h */,
+				43A373E3194AF42F0064ECD6 /* DismissingAnimator.m */,
+				43A373E5194AF4400064ECD6 /* PresentingAnimator.h */,
+				43A373E6194AF4400064ECD6 /* PresentingAnimator.m */,
+				43A373E8194AF46A0064ECD6 /* UIColor+CustomColors.h */,
+				43A373E9194AF46A0064ECD6 /* UIColor+CustomColors.m */,
+				43A39E71194A927D0066DB43 /* Supporting Files */,
+			);
+			path = PINGtouchIdDemo;
+			sourceTree = "<group>";
+		};
+		43A39E71194A927D0066DB43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A39E9D194A9F510066DB43 /* set.png */,
+				43A39E9E194A9F510066DB43 /* pay.png */,
+				43A39E9B194A9C8B0066DB43 /* yqb.png */,
+				43A39E72194A927D0066DB43 /* Info.plist */,
+				43A39E73194A927D0066DB43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43A39E87194A927D0066DB43 /* PINGtouchIdDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				43A39E8A194A927D0066DB43 /* PINGtouchIdDemoTests.m */,
+				43A39E88194A927D0066DB43 /* Supporting Files */,
+			);
+			path = PINGtouchIdDemoTests;
+			sourceTree = "<group>";
+		};
+		43A39E88194A927D0066DB43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A39E89194A927D0066DB43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43A39EA4194AEBBB0066DB43 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = pop;
+			sourceTree = "<group>";
+		};
+		43AC80CF1950162B00F8BC4E /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				43A373FE194FE4270064ECD6 /* UIDevice-Hardware.h */,
+				43A373FF194FE4270064ECD6 /* UIDevice-Hardware.m */,
+				43A39E98194A96A80066DB43 /* MBProgressHUD.h */,
+				43A39E99194A96A80066DB43 /* MBProgressHUD.m */,
+			);
+			name = Helps;
+			sourceTree = "<group>";
+		};
+		967ABD47F4004A62904BBD03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A373F3194EF0270064ECD6 /* QuartzCore.framework */,
+				43A373F1194EDAED0064ECD6 /* LocalAuthentication.framework */,
+				C1B2CC6ABA534105B4EAAAB1 /* libPods-PINGtouchIdDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A39E6D194A927D0066DB43 /* PINGtouchIdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A39E8E194A927D0066DB43 /* Build configuration list for PBXNativeTarget "PINGtouchIdDemo" */;
+			buildPhases = (
+				DC374B26CDC8418CB33743E5 /* Check Pods Manifest.lock */,
+				43A39E6A194A927D0066DB43 /* Sources */,
+				43A39E6B194A927D0066DB43 /* Frameworks */,
+				43A39E6C194A927D0066DB43 /* Resources */,
+				B4EE0A047D69419FA2C07E2F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PINGtouchIdDemo;
+			productName = PINGtouchIdDemo;
+			productReference = 43A39E6E194A927D0066DB43 /* PINGtouchIdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43A39E83194A927D0066DB43 /* PINGtouchIdDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A39E91194A927D0066DB43 /* Build configuration list for PBXNativeTarget "PINGtouchIdDemoTests" */;
+			buildPhases = (
+				43A39E80194A927D0066DB43 /* Sources */,
+				43A39E81194A927D0066DB43 /* Frameworks */,
+				43A39E82194A927D0066DB43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43A39E86194A927D0066DB43 /* PBXTargetDependency */,
+			);
+			name = PINGtouchIdDemoTests;
+			productName = PINGtouchIdDemoTests;
+			productReference = 43A39E84194A927D0066DB43 /* PINGtouchIdDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43A39E66194A927D0066DB43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = chandlewei;
+				TargetAttributes = {
+					43A39E6D194A927D0066DB43 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					43A39E83194A927D0066DB43 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 43A39E6D194A927D0066DB43;
+					};
+				};
+			};
+			buildConfigurationList = 43A39E69194A927D0066DB43 /* Build configuration list for PBXProject "PINGtouchIdDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 43A39E65194A927D0066DB43;
+			productRefGroup = 43A39E6F194A927D0066DB43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A39E6D194A927D0066DB43 /* PINGtouchIdDemo */,
+				43A39E83194A927D0066DB43 /* PINGtouchIdDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A39E6C194A927D0066DB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A39E9C194A9C8B0066DB43 /* yqb.png in Resources */,
+				43A373F7194FD90B0064ECD6 /* Localizable.strings in Resources */,
+				43A39E7D194A927D0066DB43 /* Main.storyboard in Resources */,
+				43A39E9F194A9F510066DB43 /* set.png in Resources */,
+				43A39EA0194A9F510066DB43 /* pay.png in Resources */,
+				43A39E7F194A927D0066DB43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A39E82194A927D0066DB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4EE0A047D69419FA2C07E2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-PINGtouchIdDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC374B26CDC8418CB33743E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A39E6A194A927D0066DB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A39E96194A93C70066DB43 /* LoginViewController.m in Sources */,
+				43A373E7194AF4400064ECD6 /* PresentingAnimator.m in Sources */,
+				43A373EA194AF46A0064ECD6 /* UIColor+CustomColors.m in Sources */,
+				43A373ED194AF4AB0064ECD6 /* MyHomeViewController.m in Sources */,
+				43A373F0194AF4BB0064ECD6 /* payMoneyViewController.m in Sources */,
+				43A37400194FE4270064ECD6 /* UIDevice-Hardware.m in Sources */,
+				43A39E9A194A96A80066DB43 /* MBProgressHUD.m in Sources */,
+				43A39E77194A927D0066DB43 /* AppDelegate.m in Sources */,
+				43A39EA3194ACCC20066DB43 /* SettingTableViewController.m in Sources */,
+				43A39E74194A927D0066DB43 /* main.m in Sources */,
+				43A373E4194AF42F0064ECD6 /* DismissingAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A39E80194A927D0066DB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A39E8B194A927D0066DB43 /* PINGtouchIdDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43A39E86194A927D0066DB43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43A39E6D194A927D0066DB43 /* PINGtouchIdDemo */;
+			targetProxy = 43A39E85194A927D0066DB43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43A373F9194FD90B0064ECD6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A373FB194FD92E0064ECD6 /* en */,
+				43A373FD194FDA0B0064ECD6 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		43A39E7B194A927D0066DB43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A39E7C194A927D0066DB43 /* Base */,
+				43A373FC194FDA0B0064ECD6 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43A39E8C194A927D0066DB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43A39E8D194A927D0066DB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43A39E8F194A927D0066DB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB669E273C54F0DADAC6D1A /* Pods-PINGtouchIdDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PINGtouchIdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43A39E90194A927D0066DB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB669E273C54F0DADAC6D1A /* Pods-PINGtouchIdDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PINGtouchIdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43A39E92194A927D0066DB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PINGtouchIdDemo.app/PINGtouchIdDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PINGtouchIdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		43A39E93194A927D0066DB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PINGtouchIdDemo.app/PINGtouchIdDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PINGtouchIdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A39E69194A927D0066DB43 /* Build configuration list for PBXProject "PINGtouchIdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A39E8C194A927D0066DB43 /* Debug */,
+				43A39E8D194A927D0066DB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A39E8E194A927D0066DB43 /* Build configuration list for PBXNativeTarget "PINGtouchIdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A39E8F194A927D0066DB43 /* Debug */,
+				43A39E90194A927D0066DB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A39E91194A927D0066DB43 /* Build configuration list for PBXNativeTarget "PINGtouchIdDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A39E92194A927D0066DB43 /* Debug */,
+				43A39E93194A927D0066DB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A39E66194A927D0066DB43 /* Project object */;
+}

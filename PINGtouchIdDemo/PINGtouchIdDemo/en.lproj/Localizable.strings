@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  PINGtouchIdDemo
+
+  Created by ChandlerWEi on 6/17/14.
+  Copyright (c) 2014 chandlewei. All rights reserved.
+*/
+"UNLOCK_ACCESS_TO_LOCKED_FATURE" = "Unlock access to locked feature";
+"YOU_OWN_THIS_MACHINE" = "You own this machine";
+"CLICK_ME_TO_TEST_TOUCH_ID"= "Click me to test touch id";
+"EVALUATE_POLICY_SUCCESS" = "evaluate policy success";
+"EVALUATE_POLICY_WITH_ERROR" = "evaluate policy with error %@";
+"PASS_ERR" = "Error:Password need input 4 Character!!!";
+"FINGERPRINT_AUTH_OPENED" = "fingerprint auth opened";
+"FINGERPRINT_AUTH_OPEN_FAILED" = "password error can't open";

@@ -1,0 +1,6 @@
+
+/* Class = "IBUINavigationItem"; title = "Title"; ObjectID = "bL1-Ft-PZC"; */
+"bL1-Ft-PZC.title" = "Title";
+
+/* Class = "IBUILabel"; text = "开启指纹登录功能"; ObjectID = "ykM-9d-Ma5"; */
+"ykM-9d-Ma5.text" = "开启指纹支付及登录功能";

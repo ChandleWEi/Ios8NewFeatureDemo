@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  PINGtouchIdDemo
+
+  Created by ChandlerWEi on 6/17/14.
+  Copyright (c) 2014 chandlewei. All rights reserved.
+*/
+"UNLOCK_ACCESS_TO_LOCKED_FATURE" = "请使用指纹解锁";
+"YOU_OWN_THIS_MACHINE" = "你是该机器的拥有者";
+"CLICK_ME_TO_TEST_TOUCH_ID"= "点击测试指纹认证";
+"EVALUATE_POLICY_SUCCESS" = "指纹认证成功";
+"EVALUATE_POLICY_WITH_ERROR" = "指纹认证失败 %@";
+"PASS_ERR" = "错误:需要输入4个字符";
+"result" = "结果";
+"ok" = "确认";
+"FINGERPRINT_AUTH_OPENED" = "密码正确开启成功";
+"FINGERPRINT_AUTH_OPEN_FAILED" = "密码错误开启失败";
