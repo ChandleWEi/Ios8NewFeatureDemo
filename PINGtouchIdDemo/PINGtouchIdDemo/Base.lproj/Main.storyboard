@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
@@ -16,7 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <connections>
                         <segue destination="Wmv-WP-22s" kind="show" identifier="login" id="sx6-j0-Ozw"/>
@@ -50,7 +49,6 @@
                             <constraint firstAttribute="centerX" secondItem="CNW-4l-WIK" secondAttribute="centerX" id="097-zM-9Vs"/>
                             <constraint firstAttribute="centerY" secondItem="CNW-4l-WIK" secondAttribute="centerY" constant="0.5" id="uCm-rm-gYh"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="Nfa-E7-8tu"/>
                 </viewController>
@@ -89,7 +87,6 @@
                             <constraint firstItem="jcX-wE-1d6" firstAttribute="top" secondItem="Gph-MC-Bcu" secondAttribute="bottom" constant="20" id="3HP-lv-7CI"/>
                             <constraint firstItem="Gph-MC-Bcu" firstAttribute="leading" secondItem="Kss-zv-fTF" secondAttribute="leading" constant="20" id="Ozf-rc-VNo"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="PVg-7r-G6w"/>
                     <connections>
@@ -100,15 +97,14 @@
             </objects>
             <point key="canvasLocation" x="1359" y="141"/>
         </scene>
-        <!--Setting Table View Controller - Title-->
+        <!--Title-->
         <scene sceneID="xjW-T3-lax">
             <objects>
                 <tableViewController id="Oci-ld-l7n" customClass="SettingTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="tiO-zy-mil">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="tiO-zy-mil">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <sections>
                             <tableViewSection id="zFq-5H-tFN">
                                 <cells>
@@ -131,10 +127,11 @@
                                                 </switch>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ykM-9d-Ma5" firstAttribute="leading" secondItem="tRU-GK-6pv" secondAttribute="leading" constant="26" id="JgP-6H-OBR"/>
-                                                <constraint firstItem="bNg-78-1jF" firstAttribute="centerY" secondItem="ykM-9d-Ma5" secondAttribute="centerY" id="L1Z-o1-7St"/>
-                                                <constraint firstAttribute="centerY" secondItem="ykM-9d-Ma5" secondAttribute="centerY" constant="0.25" id="gEo-Dw-f50"/>
-                                                <constraint firstAttribute="trailing" secondItem="bNg-78-1jF" secondAttribute="trailing" constant="13" id="uBx-ic-Wsy"/>
+                                                <constraint firstItem="bNg-78-1jF" firstAttribute="centerY" secondItem="ykM-9d-Ma5" secondAttribute="centerY" id="Io2-da-CFW"/>
+                                                <constraint firstItem="ykM-9d-Ma5" firstAttribute="leading" secondItem="tRU-GK-6pv" secondAttribute="leading" constant="26" id="WtL-hl-6Gx"/>
+                                                <constraint firstItem="ykM-9d-Ma5" firstAttribute="centerY" secondItem="tRU-GK-6pv" secondAttribute="centerY" id="byf-1f-QFo"/>
+                                                <constraint firstItem="ykM-9d-Ma5" firstAttribute="top" secondItem="tRU-GK-6pv" secondAttribute="top" constant="11" id="caf-uB-snU"/>
+                                                <constraint firstAttribute="trailing" secondItem="bNg-78-1jF" secondAttribute="trailing" constant="13" id="eSf-vz-ulN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>

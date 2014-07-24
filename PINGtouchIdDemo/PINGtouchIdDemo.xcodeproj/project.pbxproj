@@ -28,6 +28,8 @@
 		43A39E9F194A9F510066DB43 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A39E9D194A9F510066DB43 /* set.png */; };
 		43A39EA0194A9F510066DB43 /* pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A39E9E194A9F510066DB43 /* pay.png */; };
 		43A39EA3194ACCC20066DB43 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A39EA2194ACCC20066DB43 /* SettingTableViewController.m */; };
+		43D18B721974132700DA16EB /* KeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D18B711974132700DA16EB /* KeyChainHelper.m */; };
+		43D18B74197416C100DA16EB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D18B73197416C100DA16EB /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,9 @@
 		43A39E9E194A9F510066DB43 /* pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay.png; sourceTree = "<group>"; };
 		43A39EA1194ACCC20066DB43 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
 		43A39EA2194ACCC20066DB43 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		43D18B701974132700DA16EB /* KeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainHelper.h; sourceTree = "<group>"; };
+		43D18B711974132700DA16EB /* KeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainHelper.m; sourceTree = "<group>"; };
+		43D18B73197416C100DA16EB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C1B2CC6ABA534105B4EAAAB1 /* libPods-PINGtouchIdDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PINGtouchIdDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D18B74197416C100DA16EB /* Security.framework in Frameworks */,
 				43A373F4194EF0270064ECD6 /* QuartzCore.framework in Frameworks */,
 				43A373F2194EDAED0064ECD6 /* LocalAuthentication.framework in Frameworks */,
 				2CC22B444A374B27B7BD1140 /* libPods-PINGtouchIdDemo.a in Frameworks */,
@@ -137,6 +143,8 @@
 				43A39EA1194ACCC20066DB43 /* SettingTableViewController.h */,
 				43A39EA2194ACCC20066DB43 /* SettingTableViewController.m */,
 				43A39E97194A95930066DB43 /* GloableImageKeys.h */,
+				43D18B701974132700DA16EB /* KeyChainHelper.h */,
+				43D18B711974132700DA16EB /* KeyChainHelper.m */,
 				43A39E7B194A927D0066DB43 /* Main.storyboard */,
 				43AC80CF1950162B00F8BC4E /* Helps */,
 				43A39E7E194A927D0066DB43 /* Images.xcassets */,
@@ -203,6 +211,7 @@
 		967ABD47F4004A62904BBD03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43D18B73197416C100DA16EB /* Security.framework */,
 				43A373F3194EF0270064ECD6 /* QuartzCore.framework */,
 				43A373F1194EDAED0064ECD6 /* LocalAuthentication.framework */,
 				C1B2CC6ABA534105B4EAAAB1 /* libPods-PINGtouchIdDemo.a */,
@@ -356,6 +365,7 @@
 				43A373F0194AF4BB0064ECD6 /* payMoneyViewController.m in Sources */,
 				43A37400194FE4270064ECD6 /* UIDevice-Hardware.m in Sources */,
 				43A39E9A194A96A80066DB43 /* MBProgressHUD.m in Sources */,
+				43D18B721974132700DA16EB /* KeyChainHelper.m in Sources */,
 				43A39E77194A927D0066DB43 /* AppDelegate.m in Sources */,
 				43A39EA3194ACCC20066DB43 /* SettingTableViewController.m in Sources */,
 				43A39E74194A927D0066DB43 /* main.m in Sources */,

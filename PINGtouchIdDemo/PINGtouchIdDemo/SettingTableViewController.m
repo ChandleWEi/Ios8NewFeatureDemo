@@ -13,6 +13,7 @@
 #import "payMoneyViewController.h"
 #import <LocalAuthentication/LocalAuthentication.h>
 #import "UIDevice-Hardware.h"
+#import "KeyChainHelper.h"
 @interface SettingTableViewController ()<UIViewControllerTransitioningDelegate,PayDataDelegate>
 
 @end
@@ -295,6 +296,7 @@
 
 -(void)passViewControllerDismissed:(NSString*)string{
     if ([string isEqualToString:@"aaa"]) {
+        [KeyChainHelper addItemAsync];
         self.fingerSetting =  @1;
         self.fingerSwitch.on = true;
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];

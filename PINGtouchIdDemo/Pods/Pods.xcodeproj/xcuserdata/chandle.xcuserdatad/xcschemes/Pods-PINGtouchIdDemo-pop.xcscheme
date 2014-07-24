@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C00670599E474EFDA7DB8E8C"
+               BlueprintIdentifier = "30DE532BBBB84626925B986B"
                BuildableName = "libPods-PINGtouchIdDemo-pop.a"
                BlueprintName = "Pods-PINGtouchIdDemo-pop"
                ReferencedContainer = "container:Pods.xcodeproj">

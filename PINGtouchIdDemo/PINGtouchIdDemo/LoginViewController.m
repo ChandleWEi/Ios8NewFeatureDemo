@@ -13,7 +13,7 @@
 #import "MBProgressHUD.h"
 #import "UIColor+CustomColors.h"
 #import <LocalAuthentication/LocalAuthentication.h>
-
+#import "KeyChainHelper.h"
 #define dTagProgressHUD    3000
 
 #define sizeOfLogoImage                          self.view.frame.size.height*0.3  //全局位置
@@ -350,8 +350,11 @@
      ^(BOOL success, NSError *authenticationError) {
          NSLog(@"--->1");
          if (success) {
+
              msg =[NSString stringWithFormat:NSLocalizedString(@"EVALUATE_POLICY_SUCCESS", nil)];
              result = true;
+//             NSString*query = [KeyChainHelper copyMatchingAsync];
+//             NSLog(@"query is %@", query);
              
          } else {
              

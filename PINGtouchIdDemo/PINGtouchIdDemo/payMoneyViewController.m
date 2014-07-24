@@ -44,11 +44,8 @@
     }
 
 }
-//-(void)dismissKeyboard {
-//    NSLog(@"tap");
-//    [self.view endEditing:YES];
-////    [self.view removeGestureRecognizer:self.tap];
-//}
+
+
 #pragma mark - Private Instance methods
 
 -(UITextField*)inputMoneyTextField{
